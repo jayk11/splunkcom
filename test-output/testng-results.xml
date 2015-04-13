@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SplunkAutomation" duration-ms="72513" started-at="2015-04-07T22:37:39Z" finished-at="2015-04-07T22:38:51Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="72513" started-at="2015-04-07T22:37:39Z" finished-at="2015-04-07T22:38:51Z">
+      <class name="com.splunk.pageTests.Download_ExistingUserTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2015-04-07T15:37:39Z" finished-at="2015-04-07T15:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="beforeSuite" is-config="true" duration-ms="4806" started-at="2015-04-07T15:37:39Z" finished-at="2015-04-07T15:37:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f13f501]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="validateHunkDownloadFlow(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="validateHunkDownloadFlow" duration-ms="24481" started-at="2015-04-07T15:37:44Z" data-provider="HunkDL" finished-at="2015-04-07T15:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.splunk.com/en_us/download/hunk.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='col-sm-7 col-sm-offset-1']/button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='download-modal-row-white']/a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHunkDownloadFlow -->
+        <test-method status="PASS" signature="clearcache()[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="clearcache" is-config="true" duration-ms="47" started-at="2015-04-07T15:38:08Z" finished-at="2015-04-07T15:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearcache -->
+        <test-method status="PASS" signature="validateSplunkDownloadFlow(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="validateSplunkDownloadFlow" duration-ms="21375" started-at="2015-04-07T15:38:08Z" data-provider="SplunkDL" finished-at="2015-04-07T15:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.splunk.com/en_us/download/splunk-enterprise.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='col-sm-7 col-sm-offset-1']/button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='download-modal-row-white']/a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSplunkDownloadFlow -->
+        <test-method status="PASS" signature="clearcache()[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="clearcache" is-config="true" duration-ms="64" started-at="2015-04-07T15:38:30Z" finished-at="2015-04-07T15:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearcache -->
+        <test-method status="PASS" signature="validateUnivDownloadFlow(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="validateUnivDownloadFlow" duration-ms="21234" started-at="2015-04-07T15:38:30Z" data-provider="UnivDL" finished-at="2015-04-07T15:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http:www.splunk.com/en_us/download/universal-forwarder.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='row']/div[1]/button[1]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='download-modal-row-white']/a[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUnivDownloadFlow -->
+        <test-method status="PASS" signature="clearcache()[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="clearcache" is-config="true" duration-ms="47" started-at="2015-04-07T15:38:51Z" finished-at="2015-04-07T15:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearcache -->
+        <test-method status="PASS" signature="shutDownDriver1()[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="shutDownDriver1" is-config="true" duration-ms="79" started-at="2015-04-07T15:38:51Z" finished-at="2015-04-07T15:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownDriver1 -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.splunk.pageTests.Download_ExistingUserTest@5d185844]" name="afterSuite" is-config="true" duration-ms="0" started-at="2015-04-07T15:38:51Z" finished-at="2015-04-07T15:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.splunk.pageTests.Download_ExistingUserTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- SplunkAutomation -->
+</testng-results>
