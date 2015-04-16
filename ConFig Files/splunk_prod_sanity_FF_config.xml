@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SplunkAutomation">
+
+ <parameter name="configFileName" value="ConFig Files/Splunk_Prod_Sanity_FF_Config.txt" /> 
+
+
+
+  <parameter name="need-new" value="yes"/>
+
+ <!--  <groups>
+
+  <run> 
+
+    <include name="Regression" />
+
+   </run>
+
+  </groups 
+   -->
+  <test name="Tests"> 
+  <classes>
+          
+          <class name ="com.splunk.pageTests.Download_ExistingUserTest"/>
+          
+          
+          
+          
+             <!--<class name ="com.splunk.pageTests.Login_Tests"/>
+         
+               <class name ="com.splunk.pageTests.Login_Tests"/>
+      
+        <class name ="com.splunk.pageTests.Download_HunkTests"/>
+         <class name ="com.splunk.pageTests.Download_SEMTests"/>
+         <class name ="com.splunk.pageTests.Login_Tests"/>
+          
+           -->
+           
+          
+          
+
+
+  </classes>
+
+ </test>
+
+</suite>

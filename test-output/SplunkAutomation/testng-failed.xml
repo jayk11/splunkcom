@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SplunkAutomation]">
+  <parameter name="configFileName" value="ConFig Files/Splunk_Prod_Sanity_FF_Config.txt"/>
+  <parameter name="need-new" value="yes"/>
+  <test name="Tests(failed)">
+    <classes>
+      <class name="com.splunk.pageTests.Download_ExistingUserTest">
+        <methods>
+          <include name="clearcache"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeSuite"/>
+          <include name="shutDownDriver1"/>
+          <include name="validateHunkDownloadFlow" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.splunk.pageTests.Download_ExistingUserTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [SplunkAutomation] -->
