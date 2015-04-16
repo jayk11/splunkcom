@@ -1,8 +1,0 @@
-BROWSER=FF
-
-BASE_URL= http://www.splunk.com
-
-MAX_WAIT_TIME_SECONDS=30
-
-REMOTE=Yes
-PORT=4444
