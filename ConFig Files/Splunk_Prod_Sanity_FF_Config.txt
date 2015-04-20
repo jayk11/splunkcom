@@ -1,9 +1,0 @@
-BROWSER=FF
-
-BASE_URL= http://www.splunk.com
-Env=Prod
-
-MAX_WAIT_TIME_SECONDS=30
-
-REMOTE=No
-PORT=4444
