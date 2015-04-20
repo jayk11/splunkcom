@@ -10,8 +10,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import CommomPageLibraries.SplunkCommonTest;
-import CommomPageLibraries.SplunkWebPage;
+import com.splunk.CommomPageLibraries.SplunkCommonTest;
+import com.splunk.CommomPageLibraries.SplunkWebPage;
 
 public class Download_SEM_Page extends SplunkWebPage {
  

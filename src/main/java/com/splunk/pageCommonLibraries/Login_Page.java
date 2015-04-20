@@ -10,8 +10,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import CommomPageLibraries.SplunkCommonTest;
-import CommomPageLibraries.SplunkWebPage;
+import com.splunk.CommomPageLibraries.SplunkCommonTest;
+import com.splunk.CommomPageLibraries.SplunkWebPage;
 /**
  * Hello world!
  *

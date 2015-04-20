@@ -1,4 +1,4 @@
-package CommomPageLibraries;
+package com.splunk.CommomPageLibraries;
 import org.openqa.selenium.WebDriver;
 
 /***

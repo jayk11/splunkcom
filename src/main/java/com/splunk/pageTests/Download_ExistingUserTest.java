@@ -7,10 +7,9 @@ import java.util.Properties;
 import org.apache.commons.logging.Log;
 import org.testng.annotations.Test;
 
+import com.splunk.CommomPageLibraries.CommonTest;
+import com.splunk.CommomPageLibraries.SplunkCommonTest;
 import com.splunk.pageCommonLibraries.DownloadFlow;
-
-import CommomPageLibraries.CommonTest;
-import CommomPageLibraries.SplunkCommonTest;
 
 
 public class Download_ExistingUserTest extends SplunkCommonTest {

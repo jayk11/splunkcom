@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestSuite" time="62.133" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="TestSuite" time="6.754" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="April 14"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="JAVA_MAIN_CLASS_3319" value="Main"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="/Users/skumaresan/.jenkins"/>
     <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
@@ -11,18 +12,17 @@
     <property name="POM_ARTIFACTID" value="SplunkTesting"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="SplunkTesting"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="java.runtime.version" value="1.8.0_40-b25"/>
     <property name="user.name" value="skumaresan"/>
     <property name="__CHECKFIX1436934" value="1"/>
-    <property name="JAVA_MAIN_CLASS_22352" value="Main"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="user.language" value="en"/>
     <property name="COMMAND_MODE" value="unix2003"/>
-    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="BUILD_DISPLAY_NAME" value="#22"/>
     <property name="TMPDIR" value="/var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
     <property name="java.version" value="1.8.0_40"/>
@@ -30,7 +30,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="14"/>
+    <property name="BUILD_ID" value="22"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -47,35 +47,29 @@
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.40-b25"/>
-    <property name="NO_EM_RESTART" value=""/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="MOZ_CRASHREPORTER_RESTART_ARG_1" value=""/>
-    <property name="MOZ_CRASHREPORTER_RESTART_ARG_0" value="/Applications/Firefox.app/Contents/MacOS/firefox"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="MOZ_CRASHREPORTER_STRINGS_OVERRIDE" value="/Applications/Firefox.app/Contents/MacOS/browser/crashreporter-override.ini"/>
     <property name="LOGNAME" value="skumaresan"/>
     <property name="POM_PACKAGING" value="jar"/>
     <property name="HOME" value="/Users/skumaresan"/>
-    <property name="XRE_START_OFFLINE" value=""/>
     <property name="POM_GROUPID" value="com.splunk.cms"/>
     <property name="user.home" value="/Users/skumaresan"/>
-    <property name="BUILD_TAG" value="jenkins-April 14-14"/>
+    <property name="BUILD_TAG" value="jenkins-April 14-22"/>
     <property name="JENKINS_SERVER_COOKIE" value="f0c864047c50423e"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="XRE_BINARY_PATH" value=""/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.library.path" value="/Users/skumaresan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="Apple_PubSub_Socket_Render" value="/tmp/launch-RIbBQh/Render"/>
+    <property name="Apple_PubSub_Socket_Render" value="/tmp/launch-bwH4v6/Render"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/usr/local/apache_maven/apache-maven-3.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/apache_maven/apache-maven-3.2.5 /Users/skumaresan/.jenkins/war/WEB-INF/lib/remoting-2.50.jar /Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 60344"/>
     <property name="java.class.path" value="/Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/usr/local/apache_maven/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar:/usr/local/apache_maven/apache-maven-3.2.5/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/apache_maven/apache-maven-3.2.5 /Users/skumaresan/.jenkins/war/WEB-INF/lib/remoting-2.50.jar /Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 52334"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/bin"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -85,35 +79,103 @@
     <property name="java.io.tmpdir" value="/var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/"/>
     <property name="HUDSON_HOME" value="/Users/skumaresan/.jenkins"/>
     <property name="PATH+MAVEN" value="/usr/local/apache_maven/apache-maven-3.2.5/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/April%2014/14/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/April%2014/22/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="XUL_APP_FILE" value=""/>
-    <property name="SSH_AUTH_SOCK" value="/tmp/launch-OVMrHc/Listeners"/>
+    <property name="SSH_AUTH_SOCK" value="/tmp/launch-ki1PzY/Listeners"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="XRE_PROFILE_PATH" value=""/>
     <property name="java.ext.dirs" value="/Users/skumaresan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="__CF_USER_TEXT_ENCODING" value="0x27F0AFB4:0:0"/>
-    <property name="user.dir" value="/Users/skumaresan/Documents/workspace/SplunkTesting"/>
+    <property name="user.dir" value="/Users/skumaresan/Documents/workspace/Splunkcom"/>
     <property name="JOB_URL" value="http://localhost:8080/job/April%2014/"/>
-    <property name="MOZ_LAUNCHED_CHILD" value=""/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="/usr/local/apache_maven/apache-maven-3.2.5"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="14"/>
-    <property name="MOZ_CRASHREPORTER_DATA_DIRECTORY" value="/Users/skumaresan/Library/Application Support/Firefox/Crash Reports"/>
+    <property name="BUILD_NUMBER" value="22"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="XRE_PROFILE_NAME" value=""/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="maven3.interceptor" value="/Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
     <property name="WORKSPACE" value="/Users/skumaresan/.jenkins/workspace/April 14"/>
     <property name="maven3.interceptor.common" value="/Users/skumaresan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="XRE_PROFILE_LOCAL_PATH" value=""/>
     <property name="USER" value="skumaresan"/>
   </properties>
-  <testcase classname="com.splunk.pageTests.Download_ExistingUserTest" name="validateHunkDownloadFlow" time="22.621"/>
-  <testcase classname="com.splunk.pageTests.Download_ExistingUserTest" name="validateSplunkDownloadFlow" time="19.322"/>
-  <testcase classname="com.splunk.pageTests.Download_ExistingUserTest" name="validateUnivDownloadFlow" time="20.19"/>
+  <testcase classname="com.splunk.pageTests.Download_ExistingUserTest" name="validateHunkDownloadFlow" time="6.754">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;col-sm-7 col-sm-offset-1&apos;]/button&quot;}
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;skumaresan-mbp&apos;, ip: &apos;192.168.1.226&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 658d3b27-cbda-4e46-8c65-c7309670c067
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-sm-7 col-sm-offset-1&apos;]/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;col-sm-7 col-sm-offset-1&apos;]/button&quot;}
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;skumaresan-mbp&apos;, ip: &apos;192.168.1.226&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 658d3b27-cbda-4e46-8c65-c7309670c067
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-sm-7 col-sm-offset-1&apos;]/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.splunk.pageCommonLibraries.DownloadFlow.VerifyDownloadFlow(DownloadFlow.java:26)
+	at com.splunk.pageTests.Download_ExistingUserTest.validateHunkDownloadFlow(Download_ExistingUserTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;col-sm-7 col-sm-offset-1&apos;]/button&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;skumaresan-mbp&apos;, ip: &apos;192.168.1.226&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/anonymous194247198800898229webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/anonymous194247198800898229webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/anonymous194247198800898229webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/anonymous194247198800898229webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/mz/r_zd4s652_jd2l_cbb5tvy3wlz1bxm/T/anonymous194247198800898229webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+</failure>
+    <system-out>The Log4j Path is: /Users/skumaresan/Documents/workspace/Splunkcom/log4j.xml
+The Log4j Path is: /Users/skumaresan/Documents/workspace/Splunkcom/log4j.xml
+in beforeSuite
+/Users/skumaresan/Documents/workspace/Splunkcom/ConFig Files/Splunk_Prod_Sanity_FF_Config.txt config file name:  ConFig Files/Splunk_Prod_Sanity_FF_Config.txt
+Reading the file
+Loading the config file
+File loaded 
+Browser is FF
+Value of Remote is No
+Entered in to YES loop
+Firefox is the driver opened in hub locationhttp://10.140.15.35:4444/wd/hub
+FFIs the browser
+Entering remote is no
+Value of Remote is No
+Entered in to YES loop
+Firefox is the driver opened in hub locationhttp://10.140.15.35:4444/wd/hub
+2015-04-20 12:02:49,605 [main] INFO  com.splunk.pageTests.Login_Tests  - Entered in to data provider
+Reading readExcelData method
+Boundaru Cells are[Lorg.apache.poi.xssf.usermodel.XSSFCell;@7c541c15
+Boundary start cellHunk
+Reading for loop
+Returing testdata
+2015-04-20 12:02:49,859 [main] INFO  com.splunk.pageTests.Login_Tests  - Reading the excel
+In now entering downoad flow
+The Log4j Path is: /Users/skumaresan/Documents/workspace/Splunkcom/log4j.xml
+The Log4j Path is: /Users/skumaresan/Documents/workspace/Splunkcom/log4j.xml
+Reading config files
+/Users/skumaresan/Documents/workspace/Splunkcom/ConFig Files/Splunk_Prod_Sanity_FF_Config.txt config file name:  ConFig Files/Splunk_Prod_Sanity_FF_Config.txt
+Reading the file for Environment
+Loading the config file
+File loaded 
+Environment is ......null
+URL ishttp://publish01-qa.cms.splunk.com
+</system-out>
+  </testcase>
 </testsuite>

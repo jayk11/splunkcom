@@ -8,11 +8,11 @@ import org.apache.commons.logging.Log;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.splunk.CommomPageLibraries.SplunkCommonTest;
 import com.splunk.pageCommonLibraries.Login_Page;
 
 
 //import CommomPageLibraries.SplunkCommonTest;
-import CommomPageLibraries.SplunkCommonTest;
 
 
 /**

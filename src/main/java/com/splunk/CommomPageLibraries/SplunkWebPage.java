@@ -1,4 +1,4 @@
-package CommomPageLibraries;
+package com.splunk.CommomPageLibraries;
 
 import java.io.FileInputStream;
 import java.util.List;

@@ -1,4 +1,4 @@
-package CommomPageLibraries;
+package com.splunk.CommomPageLibraries;
 import org.apache.commons.logging.Log;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -13,9 +13,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
+import com.splunk.CommomPageLibraries.LogUtil;
 import com.splunk.pageTests.Login_Tests;
-
-import CommomPageLibraries.LogUtil;
 
 
 /***

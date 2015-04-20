@@ -4,9 +4,8 @@ import org.apache.commons.logging.Log;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-
-import CommomPageLibraries.SplunkCommonTest;
-import CommomPageLibraries.SplunkWebPage;
+import com.splunk.CommomPageLibraries.SplunkCommonTest;
+import com.splunk.CommomPageLibraries.SplunkWebPage;
 
 public class Download_SEMTests extends SplunkCommonTest {
 	

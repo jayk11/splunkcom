@@ -7,13 +7,12 @@
     <classes>
       <class name="com.splunk.pageTests.Download_ExistingUserTest">
         <methods>
-          <include name="validateSplunkDownloadFlow"/>
           <include name="beforeSuite"/>
           <include name="beforeSuite"/>
           <include name="shutDownDriver1"/>
           <include name="clearcache"/>
           <include name="validateHunkDownloadFlow" invocation-numbers="0"/>
-          <include name="validateUnivDownloadFlow"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- com.splunk.pageTests.Download_ExistingUserTest -->
     </classes>
