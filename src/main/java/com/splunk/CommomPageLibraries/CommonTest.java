@@ -44,7 +44,7 @@ public class CommonTest {
 	protected static int Max_Wait_Time_seconds = 100000;
 	protected static String Remote = null;
 	protected static String Hub = "10.140.15.35";
-	protected static String Port = "5555";
+	protected static String Port = "4444";
 	protected static String hubLocation = "http://" + Hub + ":" + Port+ "/wd/hub";
 
 	protected static String FF_Profile_Path = null;
