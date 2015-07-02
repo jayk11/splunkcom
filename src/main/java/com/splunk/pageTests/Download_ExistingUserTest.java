@@ -21,7 +21,7 @@ public class Download_ExistingUserTest extends SplunkCommonTest {
 	String configFiles="ConFig Files//Splunk_Prod_Sanity_FF_Config.txt";
    
   @Test(dataProvider="HunkDL")
-public void validateHunkDownloadFlow(String Xpath_CTA,String Xpath_bit) throws Throwable{
+public void validateHunkDownloadFlow(String URL, String Xpath_CTA,String Xpath_bit) throws Throwable{
 	  System.out.println("In now entering downoad flow");
 	DownloadFlow DL=new DownloadFlow(driver);
 System.out.println("Reading config files");
