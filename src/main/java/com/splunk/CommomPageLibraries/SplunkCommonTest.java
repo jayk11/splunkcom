@@ -96,7 +96,7 @@ public Object[][] LinkUrl() throws Exception{
 @DataProvider(name = "HunkDL")
 public Object[][] Hunk() throws Exception{
 	logger.info("Entered in to data provider");
-    Object[][] testdata=readExcelData("//Users//skumaresan//Documents//workspace//SplunkTesting//Data//TestData.xlsx","Hunk","Hunk");
+    Object[][] testdata=readExcelData("Data//TestData.xlsx","Hunk","Hunk");
     logger.info("Reading the excel");
     return(testdata);
 }
