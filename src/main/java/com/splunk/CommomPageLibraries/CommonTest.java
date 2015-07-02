@@ -171,7 +171,26 @@ public class CommonTest {
 
 			if (Browser.equalsIgnoreCase("FF")
 					&& (Remote.equalsIgnoreCase("Yes"))) {
+FirefoxProfile profile = null;
+		if (FF_Profile_Path != null) {
+			profile = new FirefoxProfile(new File(FF_Profile_Path));
+		} else if (NetworkTraffic != null) {
+			profile = new FirefoxProfile();
 
+		} else {
+			profile = new FirefoxProfile();
+
+		}
+
+		
+		DesiredCapabilities cap = DesiredCapabilities.firefox();
+		cap.setBrowserName("firefox");
+		System.out.println("Value of Remote is " + Remote);
+		System.out.println("Entered in to YES loop");
+		System.out.println("Firefox is the driver opened in hub location"
+				+ hubLocation);
+		// }
+		cap.setCapability(FirefoxDriver.PROFILE, profile);
 				System.out.println("Instatating new Ff driver for the test");
 				driver = new RemoteWebDriver(new URL(hubLocation), cap);
 				driver.manage().window().maximize();
