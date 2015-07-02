@@ -173,7 +173,7 @@ public class CommonTest {
 					&& (Remote.equalsIgnoreCase("Yes"))) {
 
 				System.out.println("Instatating new Ff driver for the test");
-				driver = new RemoteWebDriver(new URL(hubLocation),DesiredCapabilities.firefox());
+				driver = new RemoteWebDriver(new URL(hubLocation),cap);
 				driver.manage().window().maximize();
 				System.out.println("Instatating new Ff driver for the test");
 				driver.manage().window().maximize();
