@@ -43,8 +43,8 @@ public class CommonTest {
 	protected static String Browser = null;
 	protected static int Max_Wait_Time_seconds = 100000;
 	protected static String Remote = null;
-	protected static String Hub = "10.140.15.35";
-	protected static String Port = "5566";
+	protected static String Hub = "192.168.1.106";
+	protected static String Port = "4444";
 	protected static String hubLocation = "http://" + Hub + ":" + Port+ "/wd/hub";
 
 	protected static String FF_Profile_Path = null;
